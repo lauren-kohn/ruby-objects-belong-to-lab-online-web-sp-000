@@ -1,9 +1,9 @@
 class Author
   
-  attr_accessor :title, :artist 
+  attr_accessor :name
   
-  def self.initialize(title)
-    @title = title
+  def self.initialize(name)
+    @name = name
   end
   
 end 
