@@ -1,8 +1,8 @@
 class Post
   
-  attr_accessor :name, :genre 
+  attr_accessor :title, :author
   
-  def self.initialize(name, genre)
+  def self.initialize(title)
     @name = name
     @genre = genre 
   end
